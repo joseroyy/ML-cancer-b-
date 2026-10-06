@@ -1,0 +1,260 @@
+{
+  "baseline_cv": {
+    "config_id": "CFG_00_BASELINE",
+    "mean_accuracy": 0.9824175824175825,
+    "mean_f1": 0.9759264486324837,
+    "mean_roc_auc": 0.9962848297213623,
+    "std_roc_auc": 0.004491239452422891
+  },
+  "best_cv": {
+    "config_id": "CFG_00_BASELINE",
+    "hidden1": 64,
+    "hidden2": 32,
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "batch_size": 32,
+    "mean_accuracy": 0.9824175824175825,
+    "mean_precision": 0.9885714285714287,
+    "mean_recall": 0.9647058823529411,
+    "mean_f1": 0.9759264486324837,
+    "mean_roc_auc": 0.9962848297213623,
+    "std_roc_auc": 0.004491239452422891
+  },
+  "baseline_test": {
+    "accuracy": 0.9824561403508771,
+    "precision": 1.0,
+    "recall": 0.9523809523809523,
+    "f1": 0.975609756097561,
+    "roc_auc": 0.9966931216931217,
+    "specificity": 1.0,
+    "tn": 72,
+    "fp": 0,
+    "fn": 2,
+    "tp": 40,
+    "n_params": 4097,
+    "train_time": 0.4459376335144043,
+    "infer_ms": 0.08036600658670068,
+    "infer_us_per_sample": 0.7049649700587779,
+    "epochs_used": 32
+  },
+  "final_test": {
+    "accuracy": 0.9824561403508771,
+    "precision": 1.0,
+    "recall": 0.9523809523809523,
+    "f1": 0.975609756097561,
+    "roc_auc": 0.9966931216931217,
+    "specificity": 1.0,
+    "tn": 72,
+    "fp": 0,
+    "fn": 2,
+    "tp": 40,
+    "n_params": 4097,
+    "train_time": 0.46825671195983887,
+    "infer_ms": 0.06729799788445234,
+    "infer_us_per_sample": 0.5903333147758978,
+    "epochs_used": 32
+  },
+  "lr_groups": {
+    "0.0001": {
+      "mean": 0.9922944616443069,
+      "std": 0.0037299518654339498,
+      "count": 3
+    },
+    "0.001": {
+      "mean": 0.9957229675495931,
+      "std": 0.00046184112769512775,
+      "count": 9
+    },
+    "0.003": {
+      "mean": 0.9955237358101136,
+      "std": 0.000339763369497111,
+      "count": 8
+    }
+  },
+  "drop_groups": {
+    "0.0": {
+      "mean": 0.9943498452012384,
+      "std": 0.0026384355063069137,
+      "count": 8
+    },
+    "0.2": {
+      "mean": 0.9956803774141235,
+      "std": 0.0005634478709346522,
+      "count": 7
+    },
+    "0.4": {
+      "mean": 0.9956037151702788,
+      "std": 0.00017268524799470865,
+      "count": 5
+    }
+  },
+  "top10_table": [
+    {
+      "rank": 1,
+      "config_id": "CFG_00_BASELINE",
+      "hidden1": 64,
+      "hidden2": 32,
+      "dropout": 0.2,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "batch_size": 32,
+      "mean_accuracy": 0.9824175824175825,
+      "mean_f1": 0.9759264486324837,
+      "mean_roc_auc": 0.9962848297213623,
+      "std_roc_auc": 0.004491239452422891,
+      "mean_train_time_s": 0.6438454151153564
+    },
+    {
+      "rank": 2,
+      "config_id": "CFG_13",
+      "hidden1": 64,
+      "hidden2": 32,
+      "dropout": 0.2,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "batch_size": 32,
+      "mean_accuracy": 0.9824175824175825,
+      "mean_f1": 0.9759264486324837,
+      "mean_roc_auc": 0.9962848297213623,
+      "std_roc_auc": 0.004491239452422891,
+      "mean_train_time_s": 0.6644460201263428
+    },
+    {
+      "rank": 3,
+      "config_id": "CFG_04",
+      "hidden1": 64,
+      "hidden2": 32,
+      "dropout": 0.2,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "batch_size": 16,
+      "mean_accuracy": 0.9824175824175825,
+      "mean_f1": 0.9761862450765759,
+      "mean_roc_auc": 0.9961816305469557,
+      "std_roc_auc": 0.005030364337235927,
+      "mean_train_time_s": 0.8328661918640137
+    },
+    {
+      "rank": 4,
+      "config_id": "CFG_08",
+      "hidden1": 64,
+      "hidden2": 32,
+      "dropout": 0.0,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "batch_size": 64,
+      "mean_accuracy": 0.9824175824175825,
+      "mean_f1": 0.9764617904267482,
+      "mean_roc_auc": 0.9958720330237358,
+      "std_roc_auc": 0.00535244684412382,
+      "mean_train_time_s": 0.2332094669342041
+    },
+    {
+      "rank": 5,
+      "config_id": "CFG_14",
+      "hidden1": 32,
+      "hidden2": 32,
+      "dropout": 0.4,
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "batch_size": 16,
+      "mean_accuracy": 0.9802197802197803,
+      "mean_f1": 0.973477763472801,
+      "mean_roc_auc": 0.9958720330237358,
+      "std_roc_auc": 0.004785148862484885,
+      "mean_train_time_s": 1.0467931747436523
+    },
+    {
+      "rank": 6,
+      "config_id": "CFG_01",
+      "hidden1": 32,
+      "hidden2": 32,
+      "dropout": 0.0,
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "batch_size": 16,
+      "mean_accuracy": 0.9780219780219781,
+      "mean_f1": 0.9702279118242778,
+      "mean_roc_auc": 0.9958720330237357,
+      "std_roc_auc": 0.005262146040859428,
+      "mean_train_time_s": 0.5571399688720703
+    },
+    {
+      "rank": 7,
+      "config_id": "CFG_09",
+      "hidden1": 32,
+      "hidden2": 16,
+      "dropout": 0.0,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "batch_size": 16,
+      "mean_accuracy": 0.9802197802197803,
+      "mean_f1": 0.9733862589930078,
+      "mean_roc_auc": 0.9957688338493293,
+      "std_roc_auc": 0.004778467245733883,
+      "mean_train_time_s": 0.5466596603393554
+    },
+    {
+      "rank": 8,
+      "config_id": "CFG_10",
+      "hidden1": 32,
+      "hidden2": 32,
+      "dropout": 0.4,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "batch_size": 64,
+      "mean_accuracy": 0.9802197802197803,
+      "mean_f1": 0.973477763472801,
+      "mean_roc_auc": 0.9956656346749228,
+      "std_roc_auc": 0.005227626477570281,
+      "mean_train_time_s": 0.31270408630371094
+    },
+    {
+      "rank": 9,
+      "config_id": "CFG_07",
+      "hidden1": 64,
+      "hidden2": 32,
+      "dropout": 0.4,
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "batch_size": 64,
+      "mean_accuracy": 0.9824175824175825,
+      "mean_f1": 0.9763750417871119,
+      "mean_roc_auc": 0.9955624355005162,
+      "std_roc_auc": 0.004791821162536225,
+      "mean_train_time_s": 0.5221694469451904
+    },
+    {
+      "rank": 10,
+      "config_id": "CFG_03",
+      "hidden1": 32,
+      "hidden2": 32,
+      "dropout": 0.0,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "batch_size": 16,
+      "mean_accuracy": 0.9824175824175825,
+      "mean_f1": 0.9764667710043133,
+      "mean_roc_auc": 0.9954592363261094,
+      "std_roc_auc": 0.005070430751924945,
+      "mean_train_time_s": 0.502401065826416
+    }
+  ],
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch_version": "2.14.0+cpu",
+  "sklearn_version": "1.9.1",
+  "numpy_version": "2.4.4",
+  "final_training_correction": {
+    "stage1_train_samples": 364,
+    "stage1_esval_samples": 91,
+    "stage1_scaler_fit_on": "X_final_tr (364 samples)",
+    "stage2_scaler_fit_on": "X_dev (all 455 samples)",
+    "test_transform_scaler": "stage2 eval_scaler (fitted on X_dev, NOT X_test)"
+  },
+  "final_training_methodology": {
+    "stage_A_hyperparameter_search": "5-fold CV on 455 dev samples, scaler fit independently inside every fold",
+    "stage_B_final_retraining": "StandardScaler fit ONCE on all 455 dev samples, MLP retrained on all 455 dev samples for 32 fixed epochs",
+    "stage_C_test_evaluation": "X_test transformed with final_scaler (fitted on X_dev), evaluated once"
+  }
+}
